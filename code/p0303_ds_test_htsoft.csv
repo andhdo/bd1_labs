@@ -1,0 +1,6 @@
+PassengerId,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1501,1,"Barrantes Andres",male,34.5,0,0,A330911,7.8292,,C
+1502,2,"Marcela Gonzalez",female,41.5,3,1,A79228,7.8292,,S
+1503,2,"Fernandez Josue",male,31.5,0,0,A79229,7.8292,,Q
+1504,2,"Jimenez Angelica",female,31.5,2,2,A79230,7.8292,,Q
+1505,2,"Grisales Paola",female,32.5,1,1,A79233,7.8292,,S

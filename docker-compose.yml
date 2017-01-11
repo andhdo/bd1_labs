@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  rstudio:
+    build: . 
+# image: rocker/rstudio #beniyama/sparkr-docker
+    hostname: rstudio
+    container_name: rstudio
+    volumes:
+      - ./run:/run
+      - ./code:/code
+    ports: 
+      - "8787:8787"
+    environment:
+      - "ROOT=TRUE"
+# command: /bin/sh -c "while true; do ping 8.8.8.8; done"
