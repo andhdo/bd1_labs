@@ -1,7 +1,6 @@
-if (!require("igraph")) {
-  install.packages("igraph")
-  library(igraph)
-}
+if (!require("igraph")) { install.packages("igraph") }
+library(igraph)
+
 # Specify an undirected graph by hand, using a numeric   
 # vector of the pairs of vertices sharing an edge.
 G <- graph( c(1,2,1,3,1,4,3,4,3,5,5,6,6,7,7,8,8,9,3,8,5,8), directed = FALSE )
