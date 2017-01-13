@@ -1,8 +1,7 @@
-if (!require("e1071")) {
-  install.packages("e1071")
-}
+if (!require("e1071")) { install.packages("e1071") }
 
 library(e1071)
+
 ds_playgolf <- read.csv("p0208_ds_playgolf.csv",header = TRUE)
 
 model1 <- naiveBayes(PlayGolf ~ .,data=ds_playgolf)

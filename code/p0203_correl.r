@@ -1,7 +1,7 @@
-if (!require("corrplot")) {
-  install.packages("corrplot")
-  library(corrplot)
-}
+# depedencias
+if (!require("corrplot")) { install.packages("corrplot"       ) }
+library(corrplot)
+
 # se calculan los coeficientes de correlacion
 res <-cor(mtcars)
 # luego se grafican; 
